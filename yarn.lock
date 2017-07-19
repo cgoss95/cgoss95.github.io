@@ -4912,7 +4912,11 @@ react-dev-utils@^3.0.2:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
+<<<<<<< HEAD
 react-dom@15.6.1:
+=======
+react-dom@^15.6.1:
+>>>>>>> ee93ebe5f15608e751c9cd488e938865017b60e6
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.1.tgz#2cb0ed4191038e53c209eb3a79a23e2a4cf99470"
   dependencies:
@@ -4975,7 +4979,11 @@ react-scripts@1.0.10:
   optionalDependencies:
     fsevents "1.1.2"
 
+<<<<<<< HEAD
 react@15.6.1:
+=======
+react@^15.6.1:
+>>>>>>> ee93ebe5f15608e751c9cd488e938865017b60e6
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
   dependencies:
