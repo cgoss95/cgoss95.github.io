@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "homepage",
-=======
-  "name": "ceciliagoss",
->>>>>>> ee93ebe5f15608e751c9cd488e938865017b60e6
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +7,7 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "react-scripts": "1.0.10"
   },
   "scripts": {
