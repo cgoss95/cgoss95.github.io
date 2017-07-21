@@ -1,0 +1,22 @@
+body {
+    background-image: white;
+    font-family: "Zilla Slab";
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.whitespace {
+    flex-grow: 1;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    height: stretch;
+    width: 50vw;
+}
