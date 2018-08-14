@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  background-color: #050505;
+  linear-gradient(0deg, #141e30, #243b55);
   color: #F6F6F6;
 }
 
@@ -39,6 +39,6 @@ a {
 }
 
 a:hover {
-  color: #f45942;
+  color: #797979;
   transform: translate(1px, 1px);
 }
