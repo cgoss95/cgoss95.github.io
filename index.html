@@ -12,8 +12,8 @@
 <body>
     <div class="container">
         <div class="content">
-            <p>workin' on it!!! come back later, would ya?</p>
-            <p><a href="http://ceci.io/projects">click on this link to view my projects!</a></p>
+            <p>This page is currently under construction! But, you can still view my portfolio and links below. ✨</p>
+            <button onclick="window.navigateTo('/projects')">Portfolio</button>
             <p class="contact-info">
                 Cecilia Goss
                 <br/> ceci.goss@gmail.com
@@ -21,13 +21,18 @@
                 <br/> Austin, TX
             </p>
             <p class="links">
-                <a href="http://github.com/ceci21">GitHub</a> |
-                <a href="http://linkedin.com/in/cecilia-goss">LinkedIn</a> |
-                <a href="https://medium.com/@cc21">Blog</a> |
-                <a href="https://twitter.com/cecilia_goss">Twitter</a>
+                <button onclick="window.navigateTo('/projects')">GitHub</button> |
+                <button onclick="window.navigateTo('http://linkedin.com/in/cecilia-goss')">LinkedIn</button> |
+                <button onclick="window.navigateTo('https://medium.com/@cc21')">Blog</button> |
+                <button onclick="window.navigateTo('https://twitter.com/cecilia_goss')">Twitter</button> 
             </p>
         </div>
     </div>
+    <script type="text/javascript">
+        const navigateTo = (url) => {
+            window.location.href = url;
+        };
+    </script>
 </body>
 
 </html>
