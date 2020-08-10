@@ -4,7 +4,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   background: linear-gradient(0deg, #141e30, #243b55);
-  color: #F6F6F6;
+  background: #fff;
+  color: #2b2d36;
 }
 
 a {
@@ -39,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
+  color: #2b2d36;
 }
 
 .links {
@@ -50,17 +51,17 @@ a:hover {
 .slide {
   display: inline-block;
   position: relative;
-  border: 2px solid #ffffff;
+  border: 2px solid #2b2d36;
   outline: none;
   font-family: 'Montserrat';
   border-radius: 10px;
   padding: 5px 10px 5px 10px;
   background-color: rgba(255, 255, 255, 0);
-  color: #ffffff;
+  color: #2b2d36;
   font-weight: 600;
   font-size: 1em;
   margin: 5px;
-  box-shadow: 0px 5px #ffffff;
+  box-shadow: 0px 5px #2b2d36;
 }
 
 .slide:after {
@@ -74,27 +75,27 @@ a:hover {
   -webkit-transition: none;
   -moz-transition: none;
   transition: none;
-  color: #ffffff;
+  color: #2b2d36;
 }
 
 .slide:hover:after {
   width: 120%;
   background-color: rgba(255,255,255,0);
-  
+
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  color: #ffffff;
+  color: #2b2d36;
 }
 
 .slide:hover {
   transform: translate(0px, 1px);
-  box-shadow: 0px 3px #ffffff;
+  box-shadow: 0px 3px #2b2d36;
 }
 
 .slide:active {
   transform: translate(0px, 3px);
-  box-shadow: 0px 1px #ffffff;
+  box-shadow: 0px 1px #2b2d36;
 }
 
 
